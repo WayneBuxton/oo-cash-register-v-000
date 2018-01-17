@@ -16,19 +16,6 @@ class CashRegister
     @total += price * quantity
   end
 
-  def apply_discount
-     if discount == 0
-       # cash register was not initialized with an employee discount
-          "There is no discount to apply."
-      else
-        discount_percentage = @discount/ 100.0 # make a float by adding .0 at the end of the number
-        discount_value = discount_percentage * total
-
-        @total = total - discount_value
-       "After the discount, the total comes to $#{@total.round}."
-
-     end
-   end
-
+  
 
 end
