@@ -7,6 +7,7 @@ class CashRegister
     @discount = discount
     @total = 0
     @item = []
+    @transaction = []
   end
 
   def total
