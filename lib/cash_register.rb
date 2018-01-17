@@ -9,7 +9,7 @@ class CashRegister
        @transaction = []
    end
 
-    def add_item(title, price, quantity = 1)  
+    def add_item(title, price, quantity = 1)
          self.total = price * quantity + total
 
          quantity.times do
@@ -21,7 +21,7 @@ class CashRegister
       if discount == 0
            "There is no discount to apply."
        else
-         discount_percentage = @discount/ 100.0 
+         discount_percentage = @discount/ 100.0
          discount_value = discount_percentage * total
 
          @total = total - discount_value
