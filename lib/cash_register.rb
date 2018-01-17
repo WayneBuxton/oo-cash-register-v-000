@@ -24,7 +24,6 @@ class CashRegister
        else
          @total -= @total * @discount / 100
 
-         @total = total - discount_value
         "After the discount, the total comes to $#{@total.round}."
 
       end
