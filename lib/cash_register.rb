@@ -32,6 +32,6 @@ class CashRegister
    end
 
    def item
-     ens
+   end
 
 end
