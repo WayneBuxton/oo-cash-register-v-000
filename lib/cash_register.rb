@@ -32,7 +32,7 @@ class CashRegister
    end
 
    def items
-     @items << self.add_item
+     @items << self.add_item[title]
    end
 
 end
