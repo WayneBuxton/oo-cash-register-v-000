@@ -16,7 +16,7 @@ class CashRegister
            @items << title
 
            @last_transaction << @total
-
+           binding.pry
          end
    end
 
