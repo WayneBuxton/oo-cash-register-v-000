@@ -15,6 +15,8 @@ class CashRegister
      quantity.times do
            @items << title
 
+           @items << @last_transaction
+
          end
    end
 
