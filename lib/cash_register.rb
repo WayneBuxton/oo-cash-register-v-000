@@ -15,7 +15,7 @@ class CashRegister
      quantity.times do
            @items << title
 
-           @items << @last_transaction
+           price << @last_transaction
 
          end
    end
@@ -34,7 +34,7 @@ class CashRegister
     end
 
     def void_last_transaction
-       @total 
+       @total
       #binding.pry
     end
 
