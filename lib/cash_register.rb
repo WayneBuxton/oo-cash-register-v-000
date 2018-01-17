@@ -27,10 +27,6 @@ class CashRegister
       end
     end
 
-    def items
-      @items * add_item[quantity]
-    end
-
     def void_last_transaction
 
       #binding.pry
