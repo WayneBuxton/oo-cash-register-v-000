@@ -22,8 +22,7 @@ class CashRegister
 
            "There is no discount to apply."
        else
-         discount_percentage = @discount/ 100.0
-         discount_value = discount_percentage * total
+         @total -= @total * @discount / 100
 
          @total = total - discount_value
         "After the discount, the total comes to $#{@total.round}."
