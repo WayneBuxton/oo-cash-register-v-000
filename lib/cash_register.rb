@@ -16,7 +16,7 @@ class CashRegister
     @total += price * quantity
   end
 
-    def apply_discount
+  def apply_discount
      if discount == 0
        # cash register was not initialized with an employee discount
           "There is no discount to apply."
