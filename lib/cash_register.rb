@@ -27,13 +27,13 @@ class CashRegister
          @total -= @total * @discount / 100
 
         "After the discount, the total comes to $#{@total.round}."
-
+        binding.pry
       end
     end
 
     def void_last_transaction
        @total
-      binding.pry
+      #binding.pry
     end
 
   end
