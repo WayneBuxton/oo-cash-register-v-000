@@ -14,6 +14,7 @@ class CashRegister
 
      quantity.times do
            @items << title
+           binding.pry
          end
    end
 
