@@ -14,7 +14,7 @@ class CashRegister
 
      quantity.times do
            @items << title
-           #binding.pry
+           
          end
    end
 
@@ -27,7 +27,7 @@ class CashRegister
          @total -= @total * @discount / 100
 
         "After the discount, the total comes to $#{@total.round}."
-        binding.pry
+      
       end
     end
 
